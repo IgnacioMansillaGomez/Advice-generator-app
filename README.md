@@ -17,7 +17,7 @@ Index
 
 ### Links
 
-- [Solution URL](https://ignaciomansillagomez.github.io/Coffe/)
+- [Solution URL](https://ignaciomansillagomez.github.io/Advice-generator-app/)
 
 ### Built with
 
