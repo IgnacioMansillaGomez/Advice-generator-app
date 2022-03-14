@@ -1,0 +1,81 @@
+/* Primary */
+/* Neutral */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Outfit:wght@400;700&display=swap");
+/* Body Copy */
+/* Font */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  height: 100vh;
+  width: 100vw; }
+  html main,
+  body main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4e5d73; }
+  html .advice__hero,
+  body .advice__hero {
+    width: 500px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: #323a49;
+    border-radius: 20px; }
+    html .advice__hero h3,
+    body .advice__hero h3 {
+      text-align: center;
+      width: 80%;
+      margin: 45px auto 0 auto;
+      color: #52ffa8;
+      letter-spacing: 0.4em;
+      text-transform: uppercase; }
+    html .advice__hero p,
+    body .advice__hero p {
+      text-align: center;
+      width: 80%;
+      min-height: 100px;
+      margin: 15px auto 0 auto;
+      color: #cee3e9;
+      font-size: 28px; }
+    html .advice__hero img,
+    body .advice__hero img {
+      width: 80%;
+      margin: 15px auto 0 auto; }
+    html .advice__hero button,
+    body .advice__hero button {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      bottom: -30px;
+      left: 220px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      background: url(/images/icon-dice.svg);
+      background-color: #52ffa8;
+      background-repeat: no-repeat;
+      background-position: center; }
+    html .advice__hero button:hover,
+    body .advice__hero button:hover {
+      color: #52ffa8;
+      box-shadow: 0 0 20px #52ffa8; }
+
+@media (max-width: 500px) {
+  .advice-component {
+    width: 350px;
+    min-height: 350px; }
+    .advice-component img {
+      width: 90%;
+      height: 15px; }
+    .advice-component button {
+      bottom: -30px;
+      left: 145px; } }
