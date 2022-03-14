@@ -1,4 +1,4 @@
-# Proyecto Coffe Ignacio Mansilla Gomez.
+# Proyecto Advice Generator Ignacio Mansilla Gomez.
 
 ### Take a break
 
